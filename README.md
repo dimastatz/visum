@@ -1,2 +1,2 @@
 # visum
-Cost Optimization tool for Cloud Native Application
+Cost Optimization Tool for Cloud Native Applications
