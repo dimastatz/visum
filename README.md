@@ -1,3 +1,4 @@
-# VISUM - Cost Optimization Tool for Cloud Native Applications
+# VISUM 
+Visum - Cost Optimization Tool for Cloud Native Applications
 
 ## Background
