@@ -22,6 +22,12 @@ There are a lot of things that can potentially go wrong: executors can fail, the
 
 ### Apache Spark Applications and Costs Monitoring
 Spark Applications use a dynamic allocation policy, meaning that applications during the runtime may request resources when there is a demand and give resources back to the cluster if they are no longer used. Some applications will do such an allocate/release cycle a couple of times during the runtime. Spark Listeners and Spark UI can help with cost tracking and observability. The following [article](https://itnext.io/processing-costs-measurement-on-multi-tenant-emr-clusters-be09a2e021ca) shows how [Spark Listeners](https://spark.apache.org/docs/latest/api/java/index.html?org/apache/spark/scheduler/SparkListener.html) and [Spark UI](https://spark.apache.org/docs/latest/web-ui.html) can be used for observability and tracking cloud costs.
+<table width="256px">
+  <tr>
+    <td><img src="./images/spark-2.png"/></td>
+  </tr>
+  <tr><td align="center">Monitoring Apache Spark Jobs</td></tr>
+</table>  
 
 
 ## Problem Statement
