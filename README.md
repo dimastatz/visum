@@ -27,7 +27,9 @@ Spark Applications use a dynamic allocation policy, meaning that applications du
     <td><img src="./images/spark-2.png"/></td>
   </tr>
   <tr><td align="center">Monitoring Apache Spark Jobs</td></tr>
-</table>  
+</table>
+
+Performing performance tuning and cost optimization of Apache Spark is a hard task. There are a lot of things that can potentially go wrong: executors can fail. latency to external data sources can increase, the performance can degrade because of changes in the nature of the input data, wrong usage of cloud APIs, and many more. 
 
 
 ## Problem Statement
