@@ -5,7 +5,7 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;fontColor=#000000;fillColor=none;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry x="32" y="64" width="516" height="272" as="geometry"/>
+                    <mxGeometry x="32" y="80" width="512" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="52" y="160" width="120" height="80" as="geometry"/>
@@ -76,7 +76,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/1200px-Apache_Spark_logo.svg.png;" parent="1" vertex="1">
-                    <mxGeometry x="37" y="67" width="32" height="16.62" as="geometry"/>
+                    <mxGeometry x="37" y="82" width="32" height="16.62" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
