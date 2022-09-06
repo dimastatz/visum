@@ -20,6 +20,13 @@ Visum is a Cost Optimization Tool for Cloud Native Applications. The first versi
 Running high scale Apache Spark Application on Public Clouds is expensive. For example, when running on [AWS EMR](https://aws.amazon.com/emr/pricing/) applications are billed for execution time * number of cores * price/core/minute + cost of storage + managed service fee. And the question is how do we know that execution time of Apache Spark Application is optimal?
 There are a lot of things that can potentially go wrong: executors can fail, the latency to external data sources can increase, the performance can degrade because of changes in the nature of the input data or because of code changes, and many more. In order to address all these potential issues, it is necessary to proactively monitor the important metrics in real-time. 
 
+### Apache Spark Applications and Costs Monitoring
+Spark Applications use a dynamic allocation policy, meaning that applications during the runtime may request resources when there is a demand and give resources back to the cluster if they are no longer used. Some applications will do such an allocate/release cycle a couple of times during the runtime. Spark Listeners and Spark UI can help with cost tracking and observability. The following [article](https://itnext.io/processing-costs-measurement-on-multi-tenant-emr-clusters-be09a2e021ca) shows how [Spark Listeners](https://spark.apache.org/docs/latest/api/java/index.html?org/apache/spark/scheduler/SparkListener.html) and [Spark UI](https://spark.apache.org/docs/latest/web-ui.html) can be used for observability and tracking cloud costs.
+
+
+## Problem Statement
+
+
 
 
 
