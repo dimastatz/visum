@@ -17,7 +17,7 @@ Visum is a Cost Optimization Tool for Cloud Native Applications. The first versi
 [ESG research](https://aws.amazon.com/big-data/what-is-spark/) found that 43% of respondents considering cloud as their primary deployment for Apache Spark. And it makes a lot of sense because the cloud provides scalability, reliability, availability, and massive economies of scale. Another strong selling point of cloud deployment is a low barrier of entry in the form of managed services. Each one of the [Big 3](https://www.itprotoday.com/iaas-and-paas/big-3-public-cloud-providers-continue-dominate-led-aws) cloud providers comes with its own offering to run Apache Spark as a managed service. 
 
 ### Apache Spark Applications and Cloud Costs
-Running high scale Apache Spark Application on Public Clouds is expensive. For example, when running on [AWS EMR](https://aws.amazon.com/emr/pricing/) applications are billed for execution time * number of cores * price/core/minute + cost of storage + managed service fee. Data Processing of 1 TB of daily traffic can be as expensive as [1M USD / year](https://medium.com/itnext/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda). So, the intensive of keeping costs under control is very high.
+Running high scale Apache Spark Application on Public Clouds is expensive. For example, when running on [AWS EMR](https://aws.amazon.com/emr/pricing/) applications are billed for execution time * number of cores * price/core/minute + cost of storage + managed service fee. Data Processing of 1 TB of daily traffic can be as expensive as [1M USD / year](https://medium.com/itnext/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda). In such a scenario, any problem or bad code change that adds 10% to the execution time, will cost additional 100K USD/year. So, the intensive of keeping costs under control is very high.
 
 
 ### Apache Spark Applications and Costs Monitoring
@@ -34,6 +34,18 @@ Performing cost optimization of Apache Spark is a hard task. There are a lot of 
 
 
 ## Problem Statement
+Essentially there are two problems when dealing with Spark Applications Costs:
+1. Reactive way of work. Dev Teams reacts to the past rather than anticipate the future. Cost optimizations process starts only when cloud cost skyrockets and a lot of money already wasted. In fact, 'small' problems like 10% of additional execution time (can be 100K USD/yearly and more) are never handled at all.
+
+<table width="256px">
+  <tr>
+    <td><img src="./images/spark-cost.png"/></td>
+  </tr>
+  <tr><td align="center">Spark Cost Optimization</td></tr>
+</table>
+
+2. Cost Optimization of Apache Spark on Cloud can be done by experts only.
+
 
 
 
