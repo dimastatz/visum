@@ -35,7 +35,7 @@ Performing cost optimization of Apache Spark is a hard task. There are a lot of 
 
 ## Problem Statement
 Essentially there are two problems when dealing with Spark Applications Costs:
-1. Reactive way of work. Dev Teams reacts to the past rather than anticipate the future. Cost optimizations process starts only when cloud cost skyrockets and a lot of money already wasted. In fact, 'small' problems like 10% of additional execution time (can be 100K USD/yearly and more) are never handled at all.
+1. Reactive way of work. Dev Teams reacts to the past rather than anticipate the future. Cost optimizations process starts only when the cloud cost skyrockets and a lot of money already wasted. In fact, 'small' problems like 10% of additional execution time (can be 100K USD/yearly and more) are never handled at all.
 
 <table width="256px">
   <tr>
