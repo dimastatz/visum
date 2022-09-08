@@ -44,7 +44,9 @@ Essentially there are two problems when dealing with Spark Applications Costs:
   <tr><td align="center">Spark Cost Optimization</td></tr>
 </table>
 
-2. Cost Optimization of Apache Spark on Cloud can be done by experts only.
+2. Cost Optimization demands the highest level of expertise. One should have a deep and comprehensive knowledge in Apache Spark, AWS APIs and JVM in order to optimize the cost of Apache Spark Applications. In addition, when working with [PySpark](https://spark.apache.org/docs/latest/api/python/#:~:text=PySpark%20is%20an%20interface%20for,data%20in%20a%20distributed%20environment.) it is necessary to master [Python](https://www.python.org/) as well.
+
+3. The time to fix is long. 
 
 
 
