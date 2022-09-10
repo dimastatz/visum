@@ -1,7 +1,7 @@
 # VISUM 
 
 ## Background
-Visum is a Cost Optimization Tool for Cloud Native Applications. The first version of this project takes a [bottom up](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) approach and focuses on cost optimization of [Apache Spark](https://spark.apache.org/) Applications that are running on [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services/). However, an Apache Spark Application is a private case of Cloud Native Applications. Later, Visum can be extended to handle any Cloud Native Application.
+Visum is a Cost Optimization Platform for Cloud Native Applications. The first version of Visum takes a [bottom up](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) approach and focuses on cost optimization of [Apache Spark](https://spark.apache.org/) Applications that are running on [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services/). However, Apache Spark Applications are a private case of Cloud Native Applications. Later, Visum can be extended to handle any Cloud Native Application.
 
 ### Apache Spark
 [Apache Spark](https://spark.apache.org/) is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming clusters with implicit data parallelism and fault tolerance.
@@ -34,16 +34,17 @@ Performing cost optimization of Apache Spark is a hard task. There are a lot of 
 
 
 ## Problem Statement
-Essentially there are two problems when dealing with Spark Applications Costs:
+Essentially there are three problems when dealing with Spark Applications Costs:
 
 1. Reactive way of work. Dev Teams reacts to the past rather than anticipate the future. Cost optimizations process starts only when the cloud cost skyrockets and a lot of money already wasted. In fact, 'small' problems like 10% of additional execution time (can be 100K USD/yearly and more) are never handled at all.
 
 2. The highest level of expertise is required. One should have a deep and comprehensive knowledge in all three domains: Apache Spark, AWS APIs and JVM in order to optimize the cost of Apache Spark Applications. In addition, when working with [PySpark](https://spark.apache.org/docs/latest/api/python/#:~:text=PySpark%20is%20an%20interface%20for,data%20in%20a%20distributed%20environment.) it is necessary to master [Python](https://www.python.org/) as well. It is rare when one person has all these skills.
 
-3. Long time to fix. Even when detected, cost optimization problems are not prioritized for handling. Dev teams work on what is urgent, like designing and developing new features, handling product bugs, etc. Cost Optimization tasks fail into the non-functional tasks bucket. Such tasks are hard to justify without having the exact dollar figure for money waste. And even when prioritized, it takes time to find the problem, perform code fix and deploy to the production.
+3. Long time to fix. Even when detected, cost optimization issues are not prioritized for handling. Dev teams work on what is urgent, like designing and developing new features, handling product bugs, etc. Cost Optimization tasks fail into the non-functional tasks bucket. Such tasks are hard to justify without having the exact dollar figure for money waste. And even when prioritized, it takes time to find the problem, perform code fix and deploy to the production.
 
 
-## High Level Design
+## Solution
+The whole idea of Visum is to find 'bad patterns' automatically. To do so, Visum intercepts events from [Spark scheduler](https://mallikarjuna_g.gitbooks.io/spark/content/spark-SparkListener.html), JVM, AWS, and performs data stream analytics in real time. Visum performs all steps that usually performed by analytics pipelines: ingestion, normalization, enrichment and pattern recognition. In the final step, Visum generates a detailed report of detected issues with estimated wasted cost of each issue.
 
 
 
