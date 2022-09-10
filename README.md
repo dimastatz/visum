@@ -46,7 +46,7 @@ Essentially there are three problems when dealing with Spark Applications Costs:
 ## Solution
 The whole idea of Visum is to find 'bad patterns' automatically. To do so, Visum intercepts events from [Spark scheduler](https://mallikarjuna_g.gitbooks.io/spark/content/spark-SparkListener.html), JVM, AWS, and performs data stream analytics in real time. Visum performs all steps that usually performed by analytics pipelines: ingestion, normalization, enrichment and pattern recognition. In the final step, Visum generates a detailed report of detected issues with estimated wasted cost of each issue.
 
-[TBD - High Level Design ]()
+[TBD - High Level Design ](https://github.com/dimastatz/visum)
 
 
 
