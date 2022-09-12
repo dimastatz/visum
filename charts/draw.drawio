@@ -372,7 +372,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="r8ARiG-JVxP6FbuVcZFq" name="Page-5">
-        <mxGraphModel dx="856" dy="596" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="686" dy="596" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="WjK5A6MQEtL30WhpCcsb-0"/>
                 <mxCell id="WjK5A6MQEtL30WhpCcsb-1" parent="WjK5A6MQEtL30WhpCcsb-0"/>
@@ -504,6 +504,104 @@
                     <mxGeometry x="-0.6559" y="2" relative="1" as="geometry">
                         <mxPoint x="-13" y="4" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="20QY1-WUMZ5SEY45krlS" name="Page-6">
+        <mxGraphModel dx="856" dy="596" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-0"/>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-1" parent="_dXQCtPUbxQl1lHr39Cx-0"/>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-15" value="&lt;font color=&quot;#000000&quot;&gt;Class Name&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#990000;strokeColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="32" y="32" width="128" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-16" value="com.visum.examples.&lt;br&gt;streaming.DataLoader" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="32" y="64" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-17" value="Method Name" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="160" y="32" width="128" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-18" value="Issue" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="288" y="32" width="128" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-19" value="&lt;font color=&quot;#000000&quot;&gt;Impact&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#990000;strokeColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="416" y="32" width="128" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-20" value="&lt;font color=&quot;#000000&quot;&gt;Cost Estimation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#990000;strokeColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="544" y="32" width="128" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-21" value="joinBatches&lt;br&gt;(line 41)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="160" y="64" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-22" value="Spark &lt;br&gt;Data Skew" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=none;fontStyle=4" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="288" y="64" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-23" value="58%" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="416" y="64" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-24" value="120 $ / Hour" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="544" y="64" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2584514-200.png;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="399" y="66" width="16" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-27" value="com.visum.examples.&lt;br&gt;streaming.DataLoader" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="32" y="112" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-28" value="countUsers&lt;br&gt;(line 137)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="160" y="112" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-29" value="Spark &lt;br&gt;Multiple&amp;nbsp; Evaluation" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=none;fontStyle=4" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="288" y="112" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-30" value="11%" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="416" y="112" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-31" value="24 $ / Hour" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="544" y="112" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2584514-200.png;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="399" y="114" width="16" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.iconpacks.net/icons/3/free-sorting-icon-6609-thumb.png;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="512" y="40" width="16" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-35" value="com.visum.examples.&lt;br&gt;streaming.DataLoader" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="32" y="160" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-36" value="createUserPucrahses&lt;br&gt;(line 158)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="160" y="160" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-37" value="Spark&lt;br&gt;Expensive Shuffle" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=none;fontStyle=4" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="288" y="160" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-38" value="9%" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="416" y="160" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-39" value="21 $ / Hour" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="544" y="160" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-40" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2584514-200.png;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="399" y="162" width="16" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-47" value="com.visum.examples.&lt;br&gt;streaming.UdfUtils" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="32" y="208" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-48" value="normalizeOrders&lt;br&gt;(line 29)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="160" y="208" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-49" value="JVM&lt;br&gt;High Allocation Rate" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#0000FF;strokeColor=#000000;fillColor=none;fontStyle=4" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="288" y="208" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-50" value="1%" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="416" y="208" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-51" value="2 $ / Hour" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#808080;strokeColor=#000000;fillColor=none;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="544" y="208" width="128" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="_dXQCtPUbxQl1lHr39Cx-52" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2584514-200.png;" vertex="1" parent="_dXQCtPUbxQl1lHr39Cx-1">
+                    <mxGeometry x="399" y="210" width="16" height="16" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
