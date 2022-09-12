@@ -59,7 +59,7 @@ In the final step, Visum generates a detailed report of detected issues with est
   <tr>
     <td><img src="./images/visum-2.png"/></td>
   </tr>
-  <tr><td align="center">Monitoring Apache Spark Jobs</td></tr>
+  <tr><td align="center">A Waste Report</td></tr>
 </table>
 
 [TBD - High Level Design ](https://github.com/dimastatz/visum)
