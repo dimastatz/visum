@@ -50,7 +50,7 @@ The whole idea of Visum is to find 'bad patterns' automatically. To do so, Visum
   <tr>
     <td><img src="./images/visum-1.png"/></td>
   </tr>
-  <tr><td align="center">Monitoring Apache Spark Jobs</td></tr>
+  <tr><td align="center">Visum Data Flow</td></tr>
 </table>
 
 In the final step, Visum generates a detailed report of detected issues with estimated wasted cost of each issue, reference to the source code where the issue happened and link to the knowledge base that explains the problem. 
@@ -59,7 +59,7 @@ In the final step, Visum generates a detailed report of detected issues with est
   <tr>
     <td><img src="./images/visum-2.png"/></td>
   </tr>
-  <tr><td align="center">A Waste Report</td></tr>
+  <tr><td align="center">Visum Waste Report</td></tr>
 </table>
 
 [TBD - High Level Design ](https://github.com/dimastatz/visum)
