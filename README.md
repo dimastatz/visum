@@ -53,7 +53,7 @@ The whole idea of Visum is to find 'bad patterns' automatically. To do so, Visum
   <tr><td align="center">Visum Data Flow</td></tr>
 </table>
 
-In the final step, Visum generates a detailed report of detected issues with estimated wasted cost of each issue, reference to the source code where the issue happened and link to the knowledge base that explains the problem. 
+In the final step, Visum generates two reports. The first one is a detailed report of detected issues with estimated wasted cost of each issue, reference to the source code where the issue happened and link to the knowledge base that explains the problem. 
 
 <table width="256px">
   <tr>
@@ -61,6 +61,16 @@ In the final step, Visum generates a detailed report of detected issues with est
   </tr>
   <tr><td align="center">Visum Waste Report</td></tr>
 </table>
+
+The second one is a Benchmark Report. The Benchmark Report contains performance analysis per method. 
+
+<table width="256px">
+  <tr>
+    <td><img src="./images/visum-3.png"/></td>
+  </tr>
+  <tr><td align="center">Visum Benchmark Report</td></tr>
+</table>
+
 
 [TBD - High Level Design ](https://github.com/dimastatz/visum)
 
