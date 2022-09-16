@@ -8,7 +8,7 @@ May 2022
 The worldwide infrastructure as a service (IaaS) market grew 41.4% in 2021, to total $90.9 billion, up from $64.3 billion in 2020. It is expected to be as high as [$121.62 billion](https://www.nasdaq.com/articles/the-top-five-providers-of-infrastructure-as-a-service-iaas) in 2022.
 
 ### 2. Customers
-Cloud adoption is still growing, and the vast majority of enterprise organizations and more than 50% of SMBs spend more than a million dollars a year on cloud computing.
+Cloud adoption is still growing, and the vast majority of enterprise organizations and more than 50% of SMBs spend more than [a million dollars](https://www.flexera.com/blog/cloud/cloud-computing-trends-2022-state-of-the-cloud-report/#:~:text=Public%20cloud%20continues%20to%20accelerate&text=Thirty%2Dseven%20percent%20of%20enterprises,exceeds%20%241.2%20million%20per%20year.) a year on cloud computing.
 
 ## Problem Statement
 
