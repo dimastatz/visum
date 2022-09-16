@@ -20,6 +20,6 @@ The whole idea of Cloud is [elasticity](https://en.wikipedia.org/wiki/Elasticity
 
 ### 3. An Invisible Waste
 Application performance optimization is time-consuming and demands the highest level of expertise.  It is done only when necessary. For example, expert developers invest a lot in application optimization when computing resources are limited, like in embedded systems. 
-Cloud Native Applications designed for scalability and run on Cloud where resources are virtually unlimited. And that’s why Cloud Applications optimization is not necessary. It is done only when the cloud cost skyrockets. So, most of the time Cloud Native Applications are not optimized.
+[Cloud Native Applications](https://en.wikipedia.org/wiki/Cloud_native_computing) designed for scalability and run on Cloud where resources are virtually unlimited. And that’s why Cloud Applications optimization is not necessary. It is done only when the cloud cost skyrockets. So, most of the time Cloud Native Applications are not optimized.
 
 
