@@ -1,4 +1,4 @@
-# VISUM 
+# Visum - A Cloud Cost Optimization Platform
 
 ## Background
 Visum is a Cost Optimization Platform for Cloud Native Applications. The first version of Visum takes a [bottom up](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) approach and focuses on cost optimization of [Apache Spark](https://spark.apache.org/) Applications that are running on [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services/). However, Apache Spark Applications are a private case of Cloud Native Applications. Later, Visum can be extended to handle any Cloud Native Application.
