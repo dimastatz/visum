@@ -22,4 +22,12 @@ The whole idea of Cloud is [elasticity](https://en.wikipedia.org/wiki/Elasticity
 Application performance optimization is time-consuming and demands the highest level of expertise.  It is done only when necessary. For example, expert developers invest a lot in application optimization when computing resources are limited, like in embedded systems. 
 [Cloud Native Applications](https://en.wikipedia.org/wiki/Cloud_native_computing) designed for scalability and run on Cloud where resources are virtually unlimited. And that’s why Cloud Applications optimization is not necessary. It is done only when the cloud cost skyrockets. So, most of the time Cloud Native Applications are not optimized.
 
+### 4. Need or Desire
+[40 Billion](https://techmonitor.ai/technology/cloud/cloud-spending-wasted-oracle-computing-aws-azure) of US dollars that are wasted yearly, energy efficiency, reducing [carbon footprint](https://en.wikipedia.org/wiki/Carbon_footprint) - all these are good reasons to invest in Cloud Cost Optimization tools.
+
+## Solution
+[Visum](https://github.com/dimastatz/visum) is a Cloud Cost Optimization Platform that uses AI techniques to expose and handle an Invisible Waste of Cloud Native Applications. See Visum Github repo for high level design.
+
+
+
 
