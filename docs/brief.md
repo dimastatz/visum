@@ -16,7 +16,7 @@ Cloud adoption is still growing, and the vast majority of enterprise organizatio
 Companies struggle to use cloud resources efficiently. A third of cloud computing investments are being [wasted](https://techmonitor.ai/technology/cloud/cloud-spending-wasted-oracle-computing-aws-azure) according to the [Flexera](https://www.flexera.com/) survey of over 750 businesses.
 
 ### 2. A Visible Waste
-The whole idea of Cloud is elasticity. Cloud will provide as many resources as one requests. Mistakes in resource sizing, scaling in/out, keeping idle resources will result an overspending. This problem is well known. A bunch of companies provide software for financial management of cloud resources.
+The whole idea of Cloud is [elasticity](https://en.wikipedia.org/wiki/Elasticity_(cloud_computing)). Cloud will provide as many resources as one requests. Mistakes in resource sizing, scaling in/out, keeping idle resources will result an overspending. This problem is well known. A bunch of companies provide software for financial management of cloud resources.
 
 ### 3. An Invisible Waste
 Application performance optimization is time-consuming and demands the highest level of expertise.  It is done only when necessary. For example, expert developers invest a lot in application optimization when computing resources are limited, like in embedded systems. 
