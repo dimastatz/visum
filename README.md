@@ -1,9 +1,3 @@
-<table width="256px">
-  <tr>
-    <td><img src="./images/visum-4.png"/></td>
-  </tr>
-</table>  
-
 # Visum - A Cloud Cost Optimization Platform
 
 ## Background
