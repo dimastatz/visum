@@ -3,6 +3,8 @@ May 2022
 
 
 ## Background
+[Visum](https://github.com/dimastatz/visum) is a Cloud Cost Optimization Platform that uses AI techniques to expose and handle an Invisible Waste of Cloud Native Applications. See Visum Github [repo](https://github.com/dimastatz/visum) for high level design.
+
 
 ### 1. Market
 The worldwide infrastructure as a service (IaaS) market grew 41.4% in 2021, to total $90.9 billion, up from $64.3 billion in 2020. It is expected to be as high as [$121.62 billion](https://www.nasdaq.com/articles/the-top-five-providers-of-infrastructure-as-a-service-iaas) in 2022.
@@ -24,8 +26,6 @@ It is 'normal' for [Cloud Native Applications](https://en.wikipedia.org/wiki/Clo
 ### 4. Need or Desire
 [40 Billion](https://techmonitor.ai/technology/cloud/cloud-spending-wasted-oracle-computing-aws-azure) of US dollars that are wasted yearly, energy efficiency, reducing [carbon footprint](https://en.wikipedia.org/wiki/Carbon_footprint) - all these are good reasons to invest in Cloud Cost Optimization tools.
 
-## Solution
-[Visum](https://github.com/dimastatz/visum) is a Cloud Cost Optimization Platform that uses AI techniques to expose and handle an Invisible Waste of Cloud Native Applications. See Visum Github [repo](https://github.com/dimastatz/visum) for high level design.
 
 
 
